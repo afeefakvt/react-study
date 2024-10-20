@@ -1,0 +1,14 @@
+header{
+    background-color:cadetblue;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+    margin: 0px 15px;
+    font-weight: bold;
+    color: black;
+}
