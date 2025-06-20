@@ -1,12 +1,9 @@
 import React, { useMemo ,useCallback, useState} from 'react'
 
 
-//     const Expensivecalculation = ({items=[1,2,3]})=>{
-//         const total = useMemo(()=>{
-//             console.log("sum:");
-//             return items.reduce((acc,curr)=> acc+curr,0)
-            
-
+// const Expensivecalculation = ({items=[1,2,3]})=>{
+//     const total = useMemo(()=>{
+//         return items.reduce((acc,curr)=> acc+curr,0)
 //         },[items])
     
 //       return (
@@ -49,3 +46,5 @@ import React, { useMemo ,useCallback, useState} from 'react'
 // }
 
 // export default Todo
+
+

@@ -30,4 +30,4 @@ import React from "react";
 //     )
 // }
 
-// export default Greetinfg
+// export default Greeting

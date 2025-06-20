@@ -1,4 +1,4 @@
-import React,{useEffect,useState} from "react";
+// import React,{useEffect,useState} from "react";
 
 
 
@@ -107,23 +107,27 @@ import React,{useEffect,useState} from "react";
 
 
 
-// function Usages(){
-
-//     const[counter,setCounter] = useState(0)
-
+// const Usages = () => {
+//     const [counter,setCounter] = useState(0)
 
 //     useEffect(()=>{
 //         const id = setTimeout(()=>{
 //             setCounter(counter+1)
+//             console.log(counter);
+            
 //         },1000)
-// return()=>{
-//     clearTimeout(id)
 
-// }
+//         return()=>{
+//             clearTimeout(id)
+//             console.log(counter);
+            
+//         }
 //     },[counter])
-
-//     return(
-//        <h1>hi i appeared {counter} times</h1>
-//     )
+//   return (
+//     <div>
+//       <h1>hi i appeared {counter} times </h1>
+//     </div>
+//   )
 // }
+
 // export default Usages

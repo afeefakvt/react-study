@@ -5,10 +5,9 @@ import React, {useEffect, useRef, useState} from "react";
 // function Ref(){
 
 
-//     const inputRef = useRef(null)
-
-// const handleSubmit=(event)=>{
-//     event.preventDefault()
+//const inputRef = useRef(null)
+// const handleSubmit=(e)=>{
+//   e.preventDefault()
 //     console.log(inputRef.current.value);
     
 // }
@@ -31,8 +30,9 @@ import React, {useEffect, useRef, useState} from "react";
 
 //     const input = useRef("")
 
-//     const handleSubmit = ()=>{
-//         console.log(input.current.value);
+//     const handleSubmit = (e)=>{
+//       e.preventDefault()
+//       console.log(input.current.value);
         
 //     }
 
@@ -45,7 +45,7 @@ import React, {useEffect, useRef, useState} from "react";
 
 //     )
 // }
-
+// export default Ref
 
 // function Focus(){
 
@@ -90,22 +90,19 @@ import React, {useEffect, useRef, useState} from "react";
 
 
 // function ChangeColorDynamic(){
+//   const textRef = useRef('')
+//   const [color,setColor] = useState("")
 
-//     const textRef = useRef(null)
-//     const [color,setColor] = useState("")
-
-//     const handleSubmit=()=>{
-//       if(textRef.current){
-//         textRef.current.style.color = color
-//       }
-
-//     }
+//   const change = ()=>{
+//     textRef.current.style.color = color
+//   }
+    
 //     return(
       
 //         <div>
 //             <h1 ref={textRef}>hello afeefa</h1>
-//             <input type="text" placeholder="enter  colour..." value={color} onChange={(e)=>setColor(e.target.value)}/>
-//             <button onClick={handleSubmit}>submit</button>
+//            <input type="text" placeholder="enter color..." value={color} onChange={(e)=>setColor(e.target.value)} />
+//            <button onClick={change}>submit</button>
 //         </div>
 //     )
 // }
@@ -146,3 +143,27 @@ import React, {useEffect, useRef, useState} from "react";
 // }
 
 // export default Timer;
+
+
+// function Ref() {
+
+//     const countref = useRef(0)
+//     const [renderCount,setRendercount] = useState(0)
+
+//     const increment = ()=>{
+//         countref.current+=1
+//         setRendercount(renderCount+1)
+//         console.log("Current Count:", countref.current); 
+//     }
+//   return (
+//     <div>
+//         <h1>{countref.current}</h1>
+//         <button onClick={increment}>increment</button>
+
+
+//     </div>
+//   )
+// }
+
+// export default Ref
+

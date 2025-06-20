@@ -20,6 +20,7 @@ import './App.css';
 // import Ref from './components/reff/ref';
 // import ChangeColor from './components/reff/ref';
 // import Timer from './components/reff/ref';
+// import Ref from './components/reff/ref'
 
 // import Usehitsory from './components/navigatehistory/navigate';
 // import Usenavigate from './components/navigatehistory/navigate';
@@ -33,13 +34,23 @@ import './App.css';
 // import Counter from './components/counters/counters';
 // import Callback from './components/callbackandmemo/callback';
 
+// import Expensivecalculation from './components/callbackandmemo/callback';
 
 // import Parents from './components/callbackandmemo/parents';
 // import Child1 from './components/context/Child1';
 
-import Counter from './components/reducer/counter';
-import Callbackk from './components/callbackandmemo/Callbackk';
+// import Counter from './components/reducer/counter';
+// 
 
+// import Ref from './components/forwardref/Ref';
+// import Form from './components/customhook/Form';
+// import Parent from './components/toggle/Parent';
+
+// import Study from './Study';
+
+
+// import Component from './components/lazy/component';
+// import Api from "./components/customhook/Api"
 
 
 
@@ -71,6 +82,8 @@ import Callbackk from './components/callbackandmemo/Callbackk';
 // } 
 // export default App
 
+
+
 //  class App extends React.Component {
 //   render() {
 //     return (
@@ -80,7 +93,7 @@ import Callbackk from './components/callbackandmemo/Callbackk';
 //         </h1>
 //         {/* <Counter/> */}
 //         <h1>forms</h1>
-//         <Forms/>
+//         {/* <Forms/> */}
 //         {/* <List/> */}
 //       </div>
 //     )
@@ -89,7 +102,7 @@ import Callbackk from './components/callbackandmemo/Callbackk';
 
 
 
-// export default App;
+//  export default App;
 
 
 
@@ -164,6 +177,7 @@ import Callbackk from './components/callbackandmemo/Callbackk';
 //     </div>
 //   )
 // }
+// export default App
 
 
 // function App(){
@@ -258,6 +272,17 @@ import Callbackk from './components/callbackandmemo/Callbackk';
 // function App(){
 //   return(
 //     <div>
+//       <Expensivecalculation/>
+//     </div>
+//   )
+// }
+// export default App
+
+
+
+// function App(){
+//   return(
+//     <div>
 //       <Parents/>
 //     </div>
 //   )
@@ -287,11 +312,87 @@ import Callbackk from './components/callbackandmemo/Callbackk';
 
 
 
-function App(){
-  return(
-    <div>
-    <Callbackk/>
-    </div>
-  )
-}
-export default App
+// function App(){
+//   return(
+//     <div>
+//     <Callbackk/>
+//     </div>
+//   )
+// }
+// export default App
+
+
+// function App(){
+//   return(
+//     <div>
+//       <Study/>
+//     </div>
+//   )
+// }
+// export default App
+
+
+// function App(){
+//   return(
+//     <div>
+//       <Ref/>
+//     </div>
+//   )
+// }
+// export default App
+
+
+
+// function App(){
+//   return(
+//     <div>
+//       <Form/>
+//     </div>
+//   )
+// }
+// export default App
+
+
+// function App(){
+//   return(
+//     <div>
+//       <Checkbox/>
+//     </div>
+//   )
+// }
+// export default App
+
+
+// function App(){
+//   return(
+//     <div>
+//       <Parent/>
+//     </div>
+//   )
+// }
+// export default App
+
+
+
+// function App(){
+//   return(
+//     <div>
+//       <Component/>
+//     </div>
+//   )
+// }
+// export default App
+
+
+
+
+// function App(){
+//   return(
+//     <div>
+//       <Api/>
+//     </div>
+//   )
+// }
+// export default App
+
+

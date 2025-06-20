@@ -24,8 +24,6 @@
 //                 return state
 
 //     }
-
-
 // }
 // export default reducerFunction
 
@@ -49,7 +47,5 @@ function reducerFunction(state,action){
                 return state
 
     }
-
-
 }
 export default reducerFunction

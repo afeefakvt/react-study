@@ -1,23 +1,24 @@
-import React, { useState } from 'react'
-import Child from './child'
+// import React, { useState } from 'react'
+// import Child from './child'
 
-function Parents() {
+// function Parents() {
+
+//     const [count,setcount] =useState(0)
+
+//     const increment = ()=>{
+//         setcount(count+1)
+//     }
 
 
-    const [count,setcount] =useState(0)
+//   return (
+//     <div>
+//         <Child value="helloo"/>
+//         <h2>count:{count}</h2>
+//     <button onClick={increment}>+</button>
+//     </div>
+//   )
+// }
 
-    const increment = ()=>{
-        setcount(count+1)
-    }
+// export default Parents
 
 
-  return (
-    <div>
-        <Child value="helloo"/>
-        <h2>count:{count}</h2>
-    <button onClick={increment}>+</button>
-    </div>
-  )
-}
-
-export default Parents

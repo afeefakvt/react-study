@@ -16,8 +16,6 @@ function Usage(){
         <label> {value} </label>
         <button onClick={()=>setValue(value-1)}>decrement</button>
         </div>
-
-
             <button onClick={()=>setColor("yellow")}>yellow</button>
         
             <button onClick={()=>setColor("blue")}>blue</button>

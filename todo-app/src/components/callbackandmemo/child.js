@@ -20,14 +20,16 @@
 // export default Child
 
 
-import React from 'react'
+// import React from 'react'
 
-const Child = React.memo(({value})=> {
-  return (
-    <div>
-{value}
-    </div>
-  )
-})
+// const Child = React.memo(({value})=> {
+//   return (
+//     <div>
+// {value}
+//     </div>
+//   )
+// })
 
-export default Child
+// export default Child
+
+

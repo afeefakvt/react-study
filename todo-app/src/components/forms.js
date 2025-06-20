@@ -14,7 +14,8 @@ handleChange = (event)=>{
     
 }
 
-submitForm=()=>{
+submitForm=(e)=>{
+    e.preventDefault()
     console.log(this.state);
     
 }
